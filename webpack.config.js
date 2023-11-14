@@ -22,7 +22,7 @@ module.exports = {
       // Транспилируем js с babel
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'src/js'),
+        include: path.resolve(__dirname, 'src'),
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',

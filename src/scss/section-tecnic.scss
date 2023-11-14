@@ -1,0 +1,124 @@
+.main__tecnics {
+    margin-top: 40px;
+    overflow: hidden;
+    min-width: 320px;
+    background: linear-gradient(90deg, #F8F8F8 0%, #FFF 98.61%);
+  }
+  @media (min-width: 768px) {
+    .main__tecnics {
+      height: 56px;
+    }
+  }
+  
+  .tecnics__title {
+    border-top: 1px solid #D9FFF5;
+    color: #7E7E82;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    white-space: wrap;
+    padding: 16px;
+    margin: 0px;
+  }
+  
+  
+  /* swiper 320px*/
+  div.swiper-slide-tecnic {
+    position: relative;
+    width: 240px;
+    height: 160px;
+    background-color: #F8F8F8;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    background: #FFF;
+    
+  }
+  
+  .swiper-containter-tecnic .swiper-slide-tecnic {
+    overflow: hidden;
+    position: relative;
+    background-color: #F8F8F8;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    background: #FFF;
+    width: 220px;
+    height: 72px;
+    padding-right: 50px;
+    
+  }
+  
+  div.swiper-container-tecnic {
+    padding-right: 50px;
+    overflow: hidden;
+    background: #F8F8F8;
+   
+  }
+  
+  div.swiper-wrapper-tecnic {
+    width: 350px;
+    margin: 16px 0px 0px 16px;
+    padding-right: 50px;
+  }
+  
+  .swiper-pagination-tecnic {
+      --swiper-theme-color: #616161;
+      --swiper-pagination-bottom: none;
+  }
+
+  .tecnic__name {
+    color: #1B1C21;
+    font-family: "LakesRegular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    padding: 16px 88px 120px 16px;
+    white-space: nowrap;
+  }
+
+  .swiper-slide-tecnic .item__button2 {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FF3E79 ;
+    background: url('img/go.svg') 50% 50% ;
+  }
+
+.main__section--tecnic {
+  margin-bottom: 24px;
+}
+
+
+@media (min-width: 768px) {
+  .tecnics__title {
+    padding: 24px;
+  }
+}
+
+
+#fade--tecnics {
+  overflow: hidden;
+}
+
+#fade--tecnics::after {
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 1030px;
+  right: 0px;
+  content: '  ';
+  z-index: 10000;
+  box-shadow: 75px 0px 25px 90px rgb(255, 255, 255);
+}
+  
+@media (min-width: 768px) {
+  #fade--tecnics::after {
+  display: none;
+}
+}

@@ -1,0 +1,31 @@
+.main__section--specialOffer {
+    margin-left: 16px;
+    margin-bottom: 40px;
+
+    p {
+        color: #1B1C21;
+        font-family: "LakesRegular";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        white-space: wrap;
+
+    }  
+    .specialOffer--text{
+        align-items: center;
+        text-align: left;
+        color: #1B1C21;
+        font-family: "LakesBold";
+        font-size: 16px;
+        line-height: 24px
+    }
+}
+
+
+.specialOffer--btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: url("img/more.svg") no-repeat 45% 50%;
+}

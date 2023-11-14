@@ -1,0 +1,89 @@
+.round__button {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border: none;
+    border-radius: 50px;
+   }
+
+
+.item__button {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FF3E79 ;
+    background: url('img/go.svg') 50% 50% ;
+  }
+
+.oval__btn {
+    width: 119px;
+    height: 32px;
+    border: none;
+    border-radius: 16px;
+    background: #FF3E79  url('img/next.svg') no-repeat 90% 50%;
+    font-family: "LakesRegular";
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 12px;
+
+}
+
+@media (min-width:320px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .hide-on-mobile {
+        display: block;
+    }
+    
+}
+
+// buttons Background
+.button__burger {
+    background: url("img/burger.svg") ;
+}
+
+.button__call {
+    background: url("img/call.svg");
+}
+
+.button__message {
+    background: url("img/chat.svg");
+}
+
+.button__profile {
+    background: url("img/profile.svg");
+}
+
+.button__repair {
+    background: url("img/repair.svg");
+}
+
+.button__checkstatus {
+    background: url("img/checkstatus.svg");
+}
+.button__close {
+    background: url('img/close.svg');
+}
+
+.button__search {
+    background: url('img/search.svg');
+}
+
+
+.btn__expander {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: #f8f8f8 url(/WebCore6FromZero/assets/img/expand.svg);
+    transform: rotate(180deg);
+}

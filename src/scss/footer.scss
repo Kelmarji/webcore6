@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-top: 1px solid #D9FFF5;
+    background-image: #F8F8F8;
+    padding: 16px 4px;
+}
+
+.footer__text {
+    text-align: center;
+    color: #7E7E82;
+    text-align: center;
+    font-family: "LakesRegular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    opacity: 0.7218
+}
+
+@media (min-width:768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 32px 24px 24px 24px;
+    }
+
+    .footer__text--copyright {
+        width: 218px;
+        text-align: left;
+    }
+
+    .footer__text--confidencial {
+        width: 214px;
+    }
+
+    .footer__text--offerta {
+        width: 213px;
+        text-align: right;
+    }
+}
+
+@media (min-width:1440px) {
+    .footer {
+        margin-left:320px;
+    }
+}

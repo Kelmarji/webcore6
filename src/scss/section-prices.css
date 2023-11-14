@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.main__section--price {
+  margin-bottom: 40px; }
+
+.main__section--priceTablet {
+  display: none; }
+
+.main__prices {
+  margin-top: 40px;
+  overflow: hidden;
+  min-width: 320px;
+  background: linear-gradient(90deg, #F8F8F8 0%, #FFF 98.61%); }
+
+.prices__title {
+  border-top: 1px solid #D9FFF5;
+  color: #7E7E82;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  white-space: wrap;
+  padding: 16px;
+  margin: 0px; }
+
+div.swiper-slide-prices {
+  position: relative;
+  width: 240px;
+  height: 200px;
+  background-color: #F8F8F8;
+  border-radius: 6px;
+  border: 1px solid #EAEAEA;
+  background: #FFF; }
+
+.oval__btn--prices {
+  position: absolute;
+  top: 75%;
+  right: 5%; }
+
+@media (min-width: 768px) {
+  .prices__title {
+    padding: 24px; } }
+#fade--prices {
+  overflow: hidden; }
+
+#fade--prices::after {
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 1330px;
+  right: 0px;
+  content: '  ';
+  z-index: 10000;
+  box-shadow: 75px 0px 40px 95px white; }
+
+@media (min-width: 768px) {
+  #fade--prices::after {
+    display: none; }
+
+  .main__section--price {
+    display: none; }
+
+  .main__section--priceTablet {
+    display: block; } }
+.swiper-slide-prices p {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-left: 16px; }
+  .swiper-slide-prices p span {
+    color: #7E7E82;
+    opacity: 0.7; }
+
+@media (min-width: 768px) {
+  .price__list--title {
+    color: #7E7E82;
+    opacity: 0.7218;
+    margin-top: 31px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column; }
+
+  .price__items--title {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 0%; }
+
+  .price__list--items {
+    margin: 24px;
+    list-style: none;
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column; }
+
+  .price__items {
+    align-items: center;
+    font-size: 14px;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 0%; }
+
+  .price__list--divider {
+    align-self: center;
+    width: 95%;
+    height: 1px;
+    background-color: #EAEAEA; } }
+@media (min-width: 1440px) {
+  .price__items--title,
+  .price__items {
+    grid-template-columns: 470px 227px 20% 0%; } }
